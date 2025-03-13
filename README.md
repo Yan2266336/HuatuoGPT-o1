@@ -96,7 +96,7 @@ accelerate launch --config_file ./configs/deepspeed_zero3.yaml \
     --num_processes 8  \
     --num_machines 1 \
     --machine_rank 0 \
-    --deepspeed_multinode_launcher standard SFT_stage1.py \
+    --deepspeed_multinode_launcher standard SFT_stage1_new.py \
     --model_path [meta-llama/Llama-3.1-8B-Instruct] \
     --data_path [FreedomIntelligence/medical-o1-reasoning-SFT] 
 ```
