@@ -1,0 +1,11 @@
+trl
+accelerate
+torch
+transformers
+deepspeed
+xformers
+vllm
+torchvision
+retrying
+wandb
+ninja
